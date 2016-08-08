@@ -108,6 +108,13 @@ class MicroBit
     MicroBitButton              buttonA;
     MicroBitButton              buttonB;
     MicroBitMultiButton         buttonAB;
+    MicroBitAccelerometer       accelerometer;
+    MicroBitCompass             compass;
+    MicroBitCompassCalibrator   compassCalibrator;
+    MicroBitThermometer         thermometer;
+
+    //An object of available IO pins on the device
+    MicroBitIO                  io;
 
     // Bluetooth related member variables.
 	MicroBitBLEManager		    bleManager;
